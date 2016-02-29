@@ -153,10 +153,12 @@ section {
   vertical-align: top;
   margin-top: 40px;
   display: inline-block;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
 .item-container {
-  margin: 0 20px;
+  width: 100%;
 }
 
 .item-container h4 {
@@ -168,7 +170,9 @@ section {
 
 .item-container img {
   height: 200px;
-  margin: 0 auto;
+  max-width: 100%;
+  margin-right: 20px;
+  padding: 5px 0;
 }
 
 .image-container {
