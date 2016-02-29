@@ -1,0 +1,14 @@
+/*****************************
+
+Body
+
+*****************************/
+nav,
+footer,
+header,
+section,
+div {
+  border: 1px solid #ccc;
+}
+
+
