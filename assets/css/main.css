@@ -34,22 +34,15 @@ Navbar
 
 nav {
   height: 50px;
-  width: 100%;
   top: 0;
   left: 0;
   right: 0;
   line-height: 50px;
   position: fixed;
-  display: block;
   background: #fff;
-  border-bottom: 1px solid #333;
-  z-index: 1;
+  border-bottom: 1px solid #ccc;
+  z-index: 999;
   opacity: .97;
-}
-
-.nav:after {
-  content: "";
-  height: 50px;
 }
 
 .title-container {
@@ -83,6 +76,11 @@ nav {
 
 .cart-img:hover {
   opacity: .6;
+}
+
+.nav-spacer {
+  height: 50px;
+  background: #fff;
 }
 
 /*****************************
