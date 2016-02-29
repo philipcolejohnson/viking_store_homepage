@@ -146,24 +146,24 @@ section {
   text-align: center;
   width: 76%;
   margin: 0 auto;
-  padding: 30px 0;
 }
 
 .column {
   width: 33.33%;
   vertical-align: top;
-  margin-top: 12px;
+  margin-top: 40px;
   display: inline-block;
 }
 
 .item-container {
-  margin: 0 12px;
+  margin: 0 20px;
 }
 
 .item-container h4 {
   font-size: 24px;
   padding: .7em 0;
   font-weight: 700;
+  border-radius: 5px 5px 0 0;
 }
 
 .item-container img {
@@ -186,6 +186,7 @@ section {
   border-radius: 3px;
   font-weight: 700;
   font-size: 18px;
+  color: #666;
 }
 
 .cart-btn {
@@ -204,6 +205,11 @@ section {
 .cart-btn:hover {
   background: #fd9700;
   cursor: pointer;
+  color: #eee;
+}
+
+.item-container form {
+  border-radius: 0 0 5px 5px;
 }
 
 
@@ -217,6 +223,7 @@ Footer
 footer {
   background: #333;
   padding: 15px 0;
+  margin-top: 40px;
 }
 
 .footer-container {
