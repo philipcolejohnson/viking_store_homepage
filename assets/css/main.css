@@ -102,7 +102,7 @@ Banner
 
 /*****************************
 
-Subheaders
+Headers
 
 *****************************/
 
@@ -113,10 +113,14 @@ Subheaders
   margin: 0 auto;
 }
 
-.sub-header h2 {
-  font-size: 36px;
+.black-row {
   background: #333;
   color: #fff;
+  display: block;
+}
+
+.sub-header h2 {
+  font-size: 36px;
   padding: 1.5em 0;
   font-weight: 700;
 }
@@ -128,16 +132,58 @@ Subheaders
   color: #666;
 }
 
+header {
+  border-bottom: 2px solid #333;
+}
+
 /*****************************
 
 Store Inventory
 
 *****************************/
+
 section {
-  border-top: 2px solid #333;
   text-align: center;
-  padding: 30px;
+  width: 960px;
+  margin: 0 auto;
 }
+
+.column {
+  width: 33.33%;
+  vertical-align: top;
+  margin-top: 12px;
+  display: inline-block;
+}
+
+.item-container {
+  margin: 0 12px;
+}
+
+.item-container h4 {
+  font-size: 24px;
+  padding: .7em 0;
+  font-weight: 700;
+}
+
+.item-container img {
+  height: 200px;
+  margin: 0 auto;
+}
+
+.image-container {
+  position: relative;
+}
+
+.price {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.cart-btn {
+
+}
+
 
 
 /*****************************
@@ -148,7 +194,7 @@ Footer
 
 footer {
   background: #333;
-  height: 150;
+  padding: 15px 0;
 }
 
 .footer-container {
@@ -167,7 +213,7 @@ footer {
   color: #fd9700;
   text-transform: uppercase;
   text-align: center;
-  padding: 20px 0 10px 0;
+  padding-bottom: 10px;
 }
 
 .footer-image {
