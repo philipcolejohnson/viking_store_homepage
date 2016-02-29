@@ -13,7 +13,7 @@ div {
 }*/
 
 body {
-  font: 16px/1.5em Helvetica, sans-serif;
+  font: 16px/1.5em Montserrat, Helvetica, sans-serif;
   color: #333;
 }
 
@@ -34,15 +34,33 @@ Navbar
 
 nav {
   height: 50px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
   line-height: 50px;
+  position: fixed;
+  display: block;
+  background: #fff;
+  border-bottom: 1px solid #333;
+  z-index: 1;
+  opacity: .97;
+}
+
+.nav:after {
+  content: "";
+  height: 50px;
+}
+
+.title-container {
+  display: inline-block;
+  vertical-align: middle;
+  float: left;
+  margin-left: 12%;
 }
 
 .nav-title {
-  display: inline-block;
-  float: left;
-  margin-left: 12%;
-  font: 24px Helvetica, sans-serif;
-  height: 50px;
+  font-size: 24px;
   line-height: 50px;
 }
 
@@ -61,6 +79,10 @@ nav {
   display: inline-block;
   vertical-align: middle;
   padding-right: 20px;
+}
+
+.cart-img:hover {
+  opacity: .6;
 }
 
 /*****************************
@@ -133,6 +155,7 @@ Headers
 }
 
 header {
+    clear: both;
     border-bottom: 2px solid #333;
 }
 
@@ -169,7 +192,7 @@ section {
 }
 
 .item-container img {
-  height: 200px;
+  height: 150px;
   max-width: 100%;
   margin-right: 20px;
   padding: 5px 0;
@@ -177,6 +200,8 @@ section {
 
 .image-container {
   position: relative;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
 }
 
 .price-box {
