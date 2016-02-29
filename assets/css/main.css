@@ -14,7 +14,6 @@ div {
 
 body {
   font: 16px/1.5em Montserrat, Helvetica, sans-serif;
-  color: #333;
 }
 
 a { 
@@ -239,7 +238,26 @@ section {
   border-radius: 0 0 5px 5px;
 }
 
+.page-index {
+  width: 76%;
+  margin: 30px auto;
+}
 
+.page-index a,
+.page-index p,
+.page-index span {
+  font-size: 16px;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.page-index span {
+  color: #fd9700;
+}
+
+.page-index a:hover {
+  color: #fd9700;
+}
 
 /*****************************
 
