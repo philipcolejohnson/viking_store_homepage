@@ -3,20 +3,27 @@
 Body
 
 *****************************/
+/*
 nav,
 footer,
 header,
 section,
 div {
   border: 1px solid #ccc;
-}
+}*/
 
 body {
   font: 16px/1.5em Helvetica, sans-serif;
+  color: #333;
 }
 
 a { 
   text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #666;
 }
 
 /*****************************
@@ -123,7 +130,19 @@ Subheaders
 
 /*****************************
 
-Subheaders
+Store Inventory
+
+*****************************/
+section {
+  border-top: 2px solid #333;
+  text-align: center;
+  padding: 30px;
+}
+
+
+/*****************************
+
+Footer
 
 *****************************/
 
@@ -141,6 +160,7 @@ footer {
 .contact-container {
   margin-left: 120px;
   display: block;
+  margin-bottom: 15px;
 }
 
 .footer-container h5 {
@@ -161,6 +181,16 @@ footer {
 .footer-txt {
   color: #fff;
   display: inline-block;
+}
+
+.email-img {
+  background: url("../images/email_white.png") 50% 50% no-repeat;
+  background-size: 30px auto;
+}
+
+.phone-img {
+  background: url("../images/icon_phone_white.png") 50% 50% no-repeat;
+  background-size: 30px auto;
 }
 
 
